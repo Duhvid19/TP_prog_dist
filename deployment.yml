@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: rentalservice
-          image: charroux/rentalservice:1
+          image: duhvid/rent-car:1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
